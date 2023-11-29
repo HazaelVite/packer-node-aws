@@ -3,12 +3,9 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 sudo apt update && sudo apt install packer
 
 
+** Variables de consola
 
-AKIASI2B6HR2LGMLNHAU
-2ncMoz+VA5/p4v7hd1WPSAbYHLGMbWFm+5KoPknI
-
-
-export AWS_ACCESS_KEY_ID="AKIASI2B6HR2LGMLNHAU" 
-export AWS_SECRET_ACCESS_KEY="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" 
+export AWS_ACCESS_KEY_ID="aws-key-id" 
+export AWS_SECRET_ACCESS_KEY="aws-secret-key" 
 
 packer build template.pkr.hcl
